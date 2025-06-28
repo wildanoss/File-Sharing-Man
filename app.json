@@ -55,8 +55,10 @@
     }
   },
   "addons": [
-  "heroku-postgresql:mini"
-]
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "14"
       }
     }
   ],
@@ -71,4 +73,4 @@
       "size": "eco"
     }
   }
-}
+  }
